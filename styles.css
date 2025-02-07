@@ -189,9 +189,34 @@ textarea {
     opacity: 0.8;
 }
 
-/* inicial
- -336px
+@media (max-width:1100px) {
+ p{
+  display: none;
+ }
 
-final
-left 50%
-tranlatex(-50%) */
+ .main-div{
+  flex-direction: column;
+  padding: 10px;
+ }
+
+ .div-side-left{
+  align-items: center;
+  flex-direction: column;
+
+ }
+ .button1{
+  margin-left:0px;
+ }
+
+ .img-M-L{
+  width: 80vw;
+  height: auto;
+ }
+ header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -100px;
+  margin-bottom: 50px;
+ }
+}

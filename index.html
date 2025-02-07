@@ -25,7 +25,7 @@
                 entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
                 Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!
             </p>
-            <button onclick="clickEntreEmContato()">Entre em contato</button>
+            <button class="button1" onclick="clickEntreEmContato()">Entre em contato</button>
         </div>
         <div class="div-side-right"> 
             <img class="img-M-L" src="./assets/mario.png" alt="mario e luigi">
@@ -36,12 +36,15 @@
         <img class="whatsapp-img" src="./assets/whatsapp.png" alt="imagem simbolo whatsapp">
     </a>
 
-<form  class="formulario">
-    <input type="text" placeholder="Digite seu nome">
-<input type="text" placeholder="Digite seu telefone">
+<form  class="formulario"  
+action="https://formcarry.com/s/_8JZTzRyqnb"
+method="POST"
+enctype="multipart/form-data">
+    <input type="text" name="nome" placeholder="Digite seu nome">
+<input type="tel" name="telefone" placeholder="Digite seu telefone">
 <input type="text" placeholder="Digite seu e-mail">
-<textarea placeholder="Descreva sua necessidade"></textarea>
-<button class="form-button">Enviar</button>
+<textarea placeholder="Descreva sua necessidade" name="duvidas"></textarea>
+<button type="submit" class="form-button">Enviar</button>
 </form>
     
 </body>
